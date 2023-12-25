@@ -1,5 +1,25 @@
 'use client'
 
+import { useEffect, useState } from "react";
+import christmas from "/public/css/christmas.module.css";
+
 export default function Christmas(){
-    return <>크리스마스</>
+
+    return <>
+        <div className={christmas.treeBox}>
+            <div>*</div>
+            <div>***</div>
+            <div>*****</div>
+            <div>*******</div>
+            <div>*********</div>
+            <div>***********</div>
+            <div>*************</div>
+            <div>***************</div>
+            <div>*****************</div>
+            <div>*******************</div>
+            <div>*****</div>
+            <div>*****</div>
+            <div>*****</div>
+        </div>
+    </>
 }
